@@ -12,3 +12,7 @@ print(lst)
 #Deleting By Passing Index
 del(lst[1])
 print(lst)
+
+#Appending at middle of the list
+lst.insert(3, "Hari")
+print(lst)
