@@ -4,3 +4,6 @@ c = int(input("Enter another number : "))
 
 
 print('Average = ',(a+b+c)/3)
+
+x,y,z = [int(x) for x in raw_input("Enter three integer numbers").split()]
+print('Average = ',(x+y+z)/3)
