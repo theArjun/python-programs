@@ -1,2 +1,2 @@
-# No fucking SEMICOLON
+# NO FUCKING SEMICOLON
 ## Does that really matter anymore ?
