@@ -1,3 +1,4 @@
+# This programs prints the number till the entered number, skips the multiple of number and doesn't exceed 100.
 num=int(input("Enter a number : "))
 i=0
 while(i<=num):
