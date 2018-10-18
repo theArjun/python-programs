@@ -1,8 +1,8 @@
 num = int(input("Enter a number : "))
 if num%2==0:
-    evenFlag = True;
+    evenFlag = True
 else:
-    evenFlag = False;
+    evenFlag = False
 
 if evenFlag==True:
     print('%d is even number.'%(num))
