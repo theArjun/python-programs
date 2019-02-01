@@ -49,7 +49,7 @@
 ### Sets 
 
 1. [Introduction and Length of Sets](https://github.com/theArjun/Python/blob/master/sequences/sets/setsIntro.py)
-2. [Update and Remove in Sets]https://github.com/theArjun/Python/blob/master/sequences/sets/updateSets.py)
+2. [Update and Remove in Sets](https://github.com/theArjun/Python/blob/master/sequences/sets/updateSets.py)
 3. [Frozen Sets](https://github.com/theArjun/Python/blob/master/sequences/sets/frozenSets.py)
 
 ### Range
@@ -79,7 +79,7 @@
 
 1. [Read and display Student Details](https://github.com/theArjun/Python/blob/master/moreBasicsPrograms/readAndDisplayStudentDetails.py)
 2. [Average of three numbers](https://github.com/theArjun/Python/blob/master/moreBasicsPrograms/averageOfThreeNumbers.py)
-3. [Area of Circle]https://github.com/theArjun/Python/blob/master/moreBasicsPrograms/areaOfACircle.py)
+3. [Area of Circle](https://github.com/theArjun/Python/blob/master/moreBasicsPrograms/areaOfACircle.py)
 4. [Using the math module](https://github.com/theArjun/Python/blob/master/moreBasicsPrograms/mathModules.py) 
 5. [Function as Paramter](https://github.com/theArjun/Python/blob/master/moreBasicsPrograms/functionAsParameterToOther.py)
 
