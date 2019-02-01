@@ -22,11 +22,11 @@
 7. [Boolean Types](https://github.com/theArjun/Python/blob/master/datatypes/booleanNumbers.py)
 9. [Type Conversion](https://github.com/theArjun/Python/blob/master/datatypes/typeConversion.py)
 
- ## Sequences
+## Sequences
 
  [Introduction](https://github.com/theArjun/Python/blob/master/sequences/sequences.py)
 
- ### Strings
+### Strings
 
  1. [Strings, Indexing, Repitition & Length](https://github.com/theArjun/Python/blob/master/sequences/strings/string.py)
  2. [Slicing the strings](https://github.com/theArjun/Python/blob/master/sequences/strings/stringSlicing.py)
