@@ -2,3 +2,4 @@
 .metadata
 .vscode
 .pytest_cache
+*.json
