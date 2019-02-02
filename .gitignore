@@ -1,3 +1,4 @@
 .project
 .metadata
 .vscode
+.pytest_cache
