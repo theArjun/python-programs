@@ -1,6 +1,12 @@
 .project
+
 .metadata
+
 .vscode
+
 .pytest_cache
+
 *.json
-*.pyc
+
+*.pyc 
+*.ipynb_checkpoints 
