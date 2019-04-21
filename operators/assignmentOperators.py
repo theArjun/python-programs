@@ -1,12 +1,12 @@
-a=b=c=10
+a = b = c = 10
 # This is possible in python
 
-print(a,b,c)
+print(a, b, c)
 # This is also possible in Python
 
-x,y=10,5
-x+=y
+x, y = 10, 5
+x += y
 print(x)
 
-x*=y
+x *= y
 print(x)

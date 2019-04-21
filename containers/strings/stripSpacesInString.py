@@ -1,4 +1,4 @@
-s= "    My name is Arjun Adhikari.     "
+s = "    My name is Arjun Adhikari.     "
 
 # Strips the leading and trailing spaces.
 print(s.strip())

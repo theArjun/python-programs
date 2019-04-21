@@ -1,5 +1,6 @@
 # Instance Methods
 
+
 class Course:
     def __init__(self, name, ratings):
         self.name = name
@@ -11,6 +12,7 @@ class Course:
         numberOfRatings = len(self.ratings)
         average = sum(self.ratings)/numberOfRatings
         return average
+
 
 # Parameters can be list, tuple or any objects
 c1 = Course("Python Course", [1, 2, 3, 4, 5])

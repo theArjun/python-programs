@@ -1,7 +1,7 @@
-lst = [10,20,"Arjun",-10,-30.6]
+lst = [10, 20, "Arjun", -10, -30.6]
 print(lst)
 
-#Appending Value
+# Appending Value
 lst.append(40)
 print(lst)
 
@@ -9,10 +9,10 @@ print(lst)
 lst.remove("Arjun")
 print(lst)
 
-#Deleting By Passing Index
+# Deleting By Passing Index
 del(lst[1])
 print(lst)
 
-#Appending at middle of the list
+# Appending at middle of the list
 lst.insert(3, "Hari")
 print(lst)

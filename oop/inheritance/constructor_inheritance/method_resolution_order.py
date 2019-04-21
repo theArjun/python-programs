@@ -17,10 +17,11 @@ class B:
 
 
 # Due to method order resolution in multiple inheritance, method of left-class
-# is given priority, which also prevents ambiguity. 
+# is given priority, which also prevents ambiguity.
 class C(A, B):
 
     pass
+
 
 c_one = C()
 c_one.feature()
@@ -29,6 +30,7 @@ c_one.feature()
 class D(B, A):
 
     pass
+
 
 d_one = D()
 d_one.feature()

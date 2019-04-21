@@ -2,7 +2,9 @@
 def display(func):
     return "Hello" + func
 
+
 def name():
     return " Arjun"
+
 
 print(display(name()))

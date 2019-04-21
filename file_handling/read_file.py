@@ -35,7 +35,7 @@ print(my_file.readline())
 my_file.seek(0)
 
 # We can also read lines of a file using readlines() method.
-# It prints a space between them because newline is auto-added by 
+# It prints a space between them because newline is auto-added by
 # print() method.
 for line in my_file.readlines():
     print(line)

@@ -1,4 +1,4 @@
-s="You are awesome."
+s = "You are awesome."
 
 print(s)
 print(type(s))
@@ -12,10 +12,8 @@ print(type(s1))
 print(s[0])
 print(s[2])
 
-#Repeatition
+# Repeatition
 print(s*2)
 
 # Length of String
 print(len(s1))
-
-

@@ -5,7 +5,10 @@ def disp():
     # Then, we print the num
     print(num)
 
-# To make meet our objective, we need to assign the name of the function to a variable without the parenthesis
-z= disp
-# Then, we can invoke the function anytimie with the name of the variable followed by a pair of parenthesis
+
+# To make meet our objective, we need to assign the name of the function to a
+# variable without the parenthesis.
+z = disp
+# Then, we can invoke the function anytimie with the name of the variable
+# followed by a pair of parenthesis.
 z()

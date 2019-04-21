@@ -4,6 +4,10 @@ numberOne = int(input("Enter a number : "))
 numberTwo = int(input("Enter another number : "))
 
 # Lambda expression for sum of two numbers
-addition = lambda x, y: x+y
+
+
+def addition(x, y): return x+y
+
+
 # Printing the result
-print("Sum = ",addition(numberOne,numberTwo))
+print("Sum = ", addition(numberOne, numberTwo))

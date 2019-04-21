@@ -16,6 +16,7 @@ class Addition:
 
         return sum
 
+
 operation = Addition()
 print(operation.sum(4, 5, 6))
 print(operation.sum(4, 5))

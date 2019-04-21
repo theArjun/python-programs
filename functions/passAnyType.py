@@ -4,5 +4,6 @@ def fun(lst):
     for i in lst:
         print(i)
 
+
 # First, a list is passed to function
-fun([1,2,3,4])
+fun([1, 2, 3, 4])

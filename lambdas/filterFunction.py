@@ -1,7 +1,8 @@
 # Retrives even number from the list of random numbers using filter function
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 23, 45]
 
-# Syntax for filter function : filter(lambda expression,data to be filtered). Don't forget to assign it to a variable.
+# Syntax for filter function : filter(lambda expression,data to be filtered).
+# Don't forget to assign it to a variable.
 result = filter(lambda x: x % 2 == 0, lst)
 
 # The result is of filter data type.

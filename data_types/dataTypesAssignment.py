@@ -6,7 +6,7 @@ d = "I am the best."
 print(a)
 print(b)
 print(c)
-print(d) 
+print(d)
 print('\n')
 print(type(a))
 print(type(b))

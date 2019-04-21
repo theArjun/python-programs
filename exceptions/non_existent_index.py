@@ -1,4 +1,5 @@
-# Raises exception if we tried to access an item by a non-existent index with IndexError.
+# Raises exception if we tried to access an item by a non-existent index with
+# IndexError.
 
 try:
     my_list = [1, 2, 3, False, 'Arjun']

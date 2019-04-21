@@ -1,6 +1,6 @@
 # Octal digits are written in the form of 0O123 i.e. 0O and octal numbers
 
-e= 0O123
+e = 0O123
 print(e)
 print(type(e))
 

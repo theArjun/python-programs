@@ -6,6 +6,7 @@ class Product:
         self.description = "Awesome"
         self.price = 700
 
+
 p1 = Product()
 print(p1.name)
 print(p1.description)

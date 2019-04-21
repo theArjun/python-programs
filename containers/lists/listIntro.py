@@ -1,19 +1,20 @@
-# List are always declared with [] big brackets which is very similar to array bu can contain the unrelated data types collectively, too.
+# List are always declared with [] big brackets which is very similar to array
+# but can contain the unrelated data types collectively, too.
 
 lst = []
 print(lst)
 
-lst = [10,20,"Arjun",-10,-30.6]
+lst = [10, 20, "Arjun", -10, -30.6]
 print(lst)
 
 # Indexing
 print(lst[3])
 
-#Slicing
+# Slicing
 print(lst[3:5])
 
-#Repitition
+# Repitition
 print(lst*4)
 
-#Length
+# Length
 print(len(lst))
