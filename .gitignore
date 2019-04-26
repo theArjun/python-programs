@@ -10,3 +10,9 @@
 
 *.pyc 
 *.ipynb_checkpoints 
+
+
+
+# Files
+
+geckodriver.log
