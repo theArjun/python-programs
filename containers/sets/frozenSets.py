@@ -1,6 +1,7 @@
 # Frozen Sets
 
 # Frozen Set doesn't allow to Update and remove operations.
+# It is immutable set.
 
 
 s = {1, 2, 3, 4, 5}  # This is a set.
