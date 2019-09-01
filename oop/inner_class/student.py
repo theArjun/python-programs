@@ -1,5 +1,10 @@
-# Inner Class in Python
-
+"""
+        Title : Inner Class in Python
+        Description : Shows Inner Class in Python
+        Referencing URL : None
+        Date : 2019-09-01
+        Written by : ARJUN ADHIKARI
+"""
 
 class Student:
 
