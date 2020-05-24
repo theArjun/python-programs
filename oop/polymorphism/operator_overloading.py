@@ -12,7 +12,6 @@ print(int.__add__(num_one, num_two))
 
 
 class Student:
-
     def __init__(self, mark_one, mark_two):
 
         self.mark_one = mark_one
@@ -30,7 +29,7 @@ class Student:
     # Overloading print method
     def __str__(self):
 
-        return '{} {}'.format(self.mark_one, self.mark_two)
+        return "{} {}".format(self.mark_one, self.mark_two)
 
     # Overloading greater than operator
     def __gt__(self, other):
@@ -39,6 +38,7 @@ class Student:
             return True
         else:
             return False
+
 
 student_one = Student(40, 80)
 student_two = Student(67, 90)

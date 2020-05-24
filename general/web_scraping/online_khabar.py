@@ -6,7 +6,7 @@ import requests
 import bs4
 from bs4 import BeautifulSoup
 
-res = requests.get('https://www.onlinekhabar.com/')
+res = requests.get("https://www.onlinekhabar.com/")
 type(res)
 # It is a requests object.
 
@@ -18,16 +18,16 @@ print(res.text)
 # Remember to pass res.text or res.content, not res only. It accepts text
 # format not requests object.
 
-soup = BeautifulSoup(res.text, 'lxml')
+soup = BeautifulSoup(res.text, "lxml")
 
 # Formatting the HTML content
 print(soup.prettify())
 
 #  Links in Online Khabar
-for links in soup.find_all('a', string=True):
+for links in soup.find_all("a", string=True):
     print(links.getText())
 
 # Paragraphs in Online Khabar
-for paragraphs in soup.find_all('p'):
+for paragraphs in soup.find_all("p"):
     print(paragraphs.getText())
-    print('\n'*2)
+    print("\n" * 2)

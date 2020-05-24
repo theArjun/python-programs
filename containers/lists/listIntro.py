@@ -14,7 +14,7 @@ print(lst[3])
 print(lst[3:5])
 
 # Repitition
-print(lst*4)
+print(lst * 4)
 
 # Length
 print(len(lst))

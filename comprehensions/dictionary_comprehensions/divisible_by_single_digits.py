@@ -6,13 +6,13 @@ my_list = [num for num in range(1001) for i in range(2, 10) if num % i == 0]
 
 # Using Boolean values
 # Uses nested list comprehensions
-my_list = [num for num in range(1000) if True in [
-    True for i in range(2, 10) if num % i == 0]]
+my_list = [
+    num for num in range(1000) if True in [True for i in range(2, 10) if num % i == 0]
+]
 
 # It's a nice little python trick that an empty list returns false in a
 # conditional, so if nothing is generated in the sub-comprehension.
 
-my_list = [num for num in range(
-    1001) if [i for i in range(2, 10) if num % i == 0]]
+my_list = [num for num in range(1001) if [i for i in range(2, 10) if num % i == 0]]
 
 print(my_list)

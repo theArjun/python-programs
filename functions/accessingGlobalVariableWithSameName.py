@@ -11,7 +11,7 @@ def display():
     # To access the global variable outwards, we need to invoke globals()
     # function followed by brackets and inside the single quote of brackets,
     # we need to place name of that variable.
-    print(globals()['num'])
+    print(globals()["num"])
 
 
 # In global scope, we can have the global value

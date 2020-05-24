@@ -5,6 +5,6 @@
 test_string = input()
 
 if len(test_string) >= 2:
-    print('{}{}'.format(test_string[:2], test_string[-2:]))
+    print("{}{}".format(test_string[:2], test_string[-2:]))
 else:
-    print('Empty string')
+    print("Empty string")

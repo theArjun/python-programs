@@ -2,8 +2,7 @@ from threading import *
 
 
 class Sanskaar:
-
-    def greet(self, name='Arjun'):
+    def greet(self, name="Arjun"):
         print("Hello {}".format(name))
 
 

@@ -5,6 +5,6 @@ else:
     evenFlag = False
 
 if evenFlag == True:
-    print('%d is even number.' % (num))
+    print("%d is even number." % (num))
 else:
-    print('%d is odd number.' % (num))
+    print("%d is odd number." % (num))

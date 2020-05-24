@@ -4,7 +4,6 @@
 
 
 class Addition:
-
     def sum(self, num_one=None, num_two=None, num_three=None):
 
         if num_one is not None and num_two is not None and num_three is not None:

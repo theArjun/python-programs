@@ -1,6 +1,6 @@
 import requests
 
-r = requests.get('https://thearjun.tech')
+r = requests.get("https://thearjun.tech")
 
 # Prints the response object.
 print(r)

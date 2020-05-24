@@ -6,7 +6,7 @@
 
 class Student:
 
-    school = 'Gandaki College of Engineering and Science'
+    school = "Gandaki College of Engineering and Science"
 
     # These are instance methods.
     def __init__(self, m1, m2, m3):
@@ -48,12 +48,13 @@ class Student:
     # They are generally used to serve information.
     @staticmethod
     def info():  # Static method.
-        print('This is Student class, in oop directory.')
+        print("This is Student class, in oop directory.")
+
 
 s1 = Student(34, 89, 34)
 s2 = Student(34, 80, 64)
 
-print('Average : ', s1.average())
-print('Average : ', s2.average())
+print("Average : ", s1.average())
+print("Average : ", s2.average())
 
 print(Student.info())

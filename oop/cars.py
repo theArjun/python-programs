@@ -17,6 +17,7 @@ class Car:
         self.mileage = 10  # Belongs to object namespace.
         self.company = "BMW"
 
+
 c1 = Car()
 c2 = Car()
 

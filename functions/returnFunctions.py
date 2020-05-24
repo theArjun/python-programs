@@ -5,6 +5,7 @@ def display():
     def message():
         # The inner function returns the literal "display "
         return "Hello "
+
     # We are returning the function; no parenthesis here
     return message
 

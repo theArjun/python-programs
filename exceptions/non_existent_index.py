@@ -2,8 +2,8 @@
 # IndexError.
 
 try:
-    my_list = [1, 2, 3, False, 'Arjun']
-    print('Possible maximum indexing of list : {}'.format(len(my_list) - 1))
+    my_list = [1, 2, 3, False, "Arjun"]
+    print("Possible maximum indexing of list : {}".format(len(my_list) - 1))
 
     # Let's try to access with non - existent index.
     print(my_list[7])

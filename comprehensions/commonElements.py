@@ -7,7 +7,7 @@ listTwo = [1, 3, 5, 7, 9, 11, 13, 15, 17]
 result = []
 for i in range(0, len(listOne)):
     for j in range(0, len(listTwo)):
-        if(listOne[i] == listTwo[j]):
+        if listOne[i] == listTwo[j]:
             result.append(listOne[i])
 print(result)
 

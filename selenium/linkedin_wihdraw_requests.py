@@ -4,8 +4,10 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 import time
+
 # For entering password from console
 import getpass
+
 # For quitting app if login fails.
 import sys
 
@@ -17,7 +19,7 @@ try:
     # Linkedin serves two login page : One Clean UI and other old design.
     # This try block is for Clean UI.
     sign_in = driver.find_element_by_class_name("nav__button-secondary")
-    print('Sign In Link Display : ', sign_in.is_displayed())
+    print("Sign In Link Display : ", sign_in.is_displayed())
     sign_in.click()
 
     email = driver.find_element_by_name("session_key")
@@ -64,17 +66,20 @@ driver.get("https://www.linkedin.com/mynetwork/invitation-manager/sent/")
 limit = 0
 
 while not limit > 0:
-    limit = int(input("\nLeave empty if you want to withdraw all requests.\n"
-                      "Enter numeric value starting from 0 to your choice\n"
-                      "Enter how many withdraw you want : "))
+    limit = int(
+        input(
+            "\nLeave empty if you want to withdraw all requests.\n"
+            "Enter numeric value starting from 0 to your choice\n"
+            "Enter how many withdraw you want : "
+        )
+    )
 
 withdraw_count = 0
 
 while True:
     try:
         if withdraw_count <= limit:
-            withdraw = driver.find_element_by_class_name(
-                "invitation-card__action-btn")
+            withdraw = driver.find_element_by_class_name("invitation-card__action-btn")
             withdraw.click()
             time.sleep(2)
             withdraw_count += 1

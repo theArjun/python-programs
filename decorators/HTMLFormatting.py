@@ -14,6 +14,7 @@ def add_html_formatting(tempFunction):
         tempFunction(article)
         # Step 7: Add anything after that function to decorate
         print("</article>")
+
     # Step 8: Return the wrapper function without parameter
     return wrap_html_formatting
 

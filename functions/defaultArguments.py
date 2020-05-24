@@ -8,7 +8,7 @@
 def average(a=10, b=20):
     print(a)
     print(b)
-    print((a+b)/2)
+    print((a + b) / 2)
 
 
 # Doing this, first parameter is assigned to 10 and second parameter is

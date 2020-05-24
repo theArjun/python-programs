@@ -7,4 +7,5 @@ def addition(one, two):
     minuend = dec_to_bin(one)
     subtrahend = dec_to_bin(two)
 
+
 print(~34)

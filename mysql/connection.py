@@ -1,10 +1,6 @@
 import mysql.connector
 
-my_db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd=""
-)
+my_db = mysql.connector.connect(host="localhost", user="root", passwd="")
 
 # MYSQLConnection object
 print(my_db)
@@ -28,7 +24,8 @@ result = my_cursor.execute(
     "CREATE TABLE IF NOT EXISTS `arjun`.`college`("
     "id INT PRIMARY KEY AUTO_INCREMENT,"
     "rank VARCHAR(32) NOT NULL,"
-    "college_name VARCHAR(200) NOT NULL)")
+    "college_name VARCHAR(200) NOT NULL)"
+)
 print(result)
 
 # Displays list of tables

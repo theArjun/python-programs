@@ -6,9 +6,11 @@
         Written by : ARJUN ADHIKARI
 """
 
+
 def foo():
 
     """ This is the string literal used as a single line docstring. """
+
 
 # The __doc__ magic method will return the docstring of the function.
 print(foo.__doc__)

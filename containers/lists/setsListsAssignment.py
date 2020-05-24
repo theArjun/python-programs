@@ -5,7 +5,7 @@ country.append("Bhutan")
 # removing an element from list
 country.remove("China")
 # removing a element from list by indexing
-del(country[1])
+del country[1]
 # inserting a element to list by indexing
 country.insert(1, "Maldives")
 

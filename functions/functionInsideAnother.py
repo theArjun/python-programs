@@ -5,9 +5,10 @@ def display(name):
     def message():
         # The inner function returns the literal "Hello "
         return "Hello "
+
     # In the outer function assigns the value returned by the message function
     # and the parameter passed to it into a variable and returns it
-    result = message()+name
+    result = message() + name
     return result
 
 

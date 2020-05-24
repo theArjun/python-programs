@@ -11,6 +11,7 @@ nums = [1, 2, 3, 4, 5, 6, 7]
 def is_even(n):
     return n % 2 == 0
 
+
 # First it return the filter object, so we need to convert it into list.
 # We can also convert it in set, tuple etc.
 evens = list(filter(is_even, nums))

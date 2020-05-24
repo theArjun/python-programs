@@ -9,9 +9,11 @@ test_string = input()
 # repeated_chars = [keys for keys, values in count_char.items() if values > 1]
 
 # Dictionary of characters in test string whose occurence is more than 1.
-repeated_chars_appearence = {keys: 1 for keys in test_string if test_string.count(keys) > 1}
+repeated_chars_appearence = {
+    keys: 1 for keys in test_string if test_string.count(keys) > 1
+}
 
-new_string = ''
+new_string = ""
 for char in test_string:
 
     # If the character has appeared more than once.
@@ -23,7 +25,7 @@ for char in test_string:
             repeated_chars_appearence[char] += 1
         # If it has been already printed, it should be replaced by '$'.
         else:
-            new_string += '$'
+            new_string += "$"
     # Else print as usual.
     else:
         new_string += char

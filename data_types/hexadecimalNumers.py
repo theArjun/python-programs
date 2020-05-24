@@ -1,7 +1,7 @@
 # Hexadecimal digits are written in the form of 0XFF i.e. 0X and hexadecimal
 # numbers
 
-e = 0XFF
+e = 0xFF
 print(e)
 print(type(e))
 

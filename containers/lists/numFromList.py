@@ -24,5 +24,5 @@ lst = list(map(lambda x: int(x), lst))
 print(lst)
 
 b = int(input("Which order array you want to delete ?"))
-del(lst[b-1])
+del lst[b - 1]
 print(lst)

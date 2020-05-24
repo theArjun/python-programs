@@ -5,5 +5,5 @@
 from fake_useragent import UserAgent
 
 ua = UserAgent()
-header = {'user_agent': ua.chrome}
+header = {"user_agent": ua.chrome}
 print(ua.chrome)

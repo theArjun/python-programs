@@ -1,5 +1,4 @@
 class A:
-
     def __init__(self):
         print("Class A Init.")
 
@@ -12,7 +11,6 @@ class A:
 
 # Constructor Inheritance
 class B(A):
-
     def __init__(self):
         # To call the init method of superclass, super keyword is used.
         # It will call the init method of immediate super class.
@@ -25,6 +23,7 @@ class B(A):
 
     def feature_four(self):
         print("Feature 4 working.")
+
 
 # First, it calls the init method of sub class; if not then calls the init
 # method of super class.

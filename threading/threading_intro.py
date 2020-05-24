@@ -14,12 +14,12 @@ class Hello(Thread):
 
 
 class Hi(Thread):
-
     def run(self):
         for i in range(5):
             # Sets interval of 1 second between every printing of "Hi".
             sleep(1)
             print("Hi")
+
 
 # Create objects of those class who extended Thread class.
 thread_one = Hello()
@@ -30,7 +30,7 @@ thread_two = Hi()
 thread_one.start()
 # Create interval between start() method invoking of different Thread objects.
 # Make it different than 1 second to see it working(printing) parallely.
-sleep(.4)
+sleep(0.4)
 thread_two.start()
 
 # "Thanks for watching" is not manually associated with any thread. So, by

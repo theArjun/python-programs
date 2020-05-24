@@ -5,12 +5,13 @@ def decorate_add_number(tempFunction):
         result = tempFunction(numOne, numTwo)
         print(result)
         print("Keep enjoying mathematical journey")
+
     return wrap_add_number
 
 
 @decorate_add_number
 def add_number(numOne, numTwo):
-    return numOne+numTwo
+    return numOne + numTwo
 
 
 add_number(5, 6)

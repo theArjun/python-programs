@@ -2,11 +2,7 @@ import mysql.connector
 
 
 try:
-    my_db = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        passwd=""
-    )
+    my_db = mysql.connector.connect(host="localhost", user="root", passwd="")
 except ConnectionRefusedError:
     print("Error in MYSQL Connection.")
 

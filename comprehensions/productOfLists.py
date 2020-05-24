@@ -7,10 +7,10 @@ listTwo = [11, 12, 13, 14, 15, 16, 17, 18]
 result = []
 # We are providing length of listOne in loop.
 for i in range(0, len(listOne)):
-    result.append(listOne[i]*listTwo[i])
+    result.append(listOne[i] * listTwo[i])
 print(result)
 
 # Using list comprehension
 result = []
-result = [listOne[i]*listTwo[i] for i in range(0, len(listOne))]
+result = [listOne[i] * listTwo[i] for i in range(0, len(listOne))]
 print(result)

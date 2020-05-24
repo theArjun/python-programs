@@ -3,13 +3,11 @@ import time
 import unittest
 
 
-class LoginTest (unittest.TestCase):
-
+class LoginTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
 
-        cls.driver = webdriver.Chrome(
-            executable_path="C:\selenium\chromedriver.exe")
+        cls.driver = webdriver.Chrome(executable_path="C:\selenium\chromedriver.exe")
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 

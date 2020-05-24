@@ -1,7 +1,7 @@
 # Raises exception if a string is entered, not a number as expected.
 # It also can be solved using ValueError.
 try:
-    num = int(input('Enter a number. Otherwise it will raise exception. : '))
+    num = int(input("Enter a number. Otherwise it will raise exception. : "))
     # Checks if number is instance of integer or not.
     if not isinstance(num, int):
         raise Exception()

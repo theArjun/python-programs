@@ -13,7 +13,7 @@ print(s[0])
 print(s[2])
 
 # Repeatition
-print(s*2)
+print(s * 2)
 
 # Length of String
 print(len(s1))

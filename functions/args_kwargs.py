@@ -11,6 +11,7 @@ def my_maths(*args):
     print(args)
     print(sum(args))
 
+
 my_maths(1, 2, 3, 4, 4)
 
 
@@ -20,9 +21,10 @@ my_maths(1, 2, 3, 4, 4)
 # kwargs refers to keyword arguments and takes value as dictionary.
 def my_activity(**kwargs):
     print(kwargs)
-    print('I will play {} and eat {}.'.format(kwargs['sport'], kwargs['food']))
+    print("I will play {} and eat {}.".format(kwargs["sport"], kwargs["food"]))
 
-my_activity(sport='Cricket', subject='Python', name='Arjun', food='Biryani')
+
+my_activity(sport="Cricket", subject="Python", name="Arjun", food="Biryani")
 
 
 # Both args and kwargs can be used in combination. They are seen so in
@@ -30,6 +32,7 @@ my_activity(sport='Cricket', subject='Python', name='Arjun', food='Biryani')
 def my_result(*args, **kwargs):
     print(args)
     print(kwargs)
-    print('I have scored {} in {}.'.format(args[0], kwargs['subject']))
+    print("I have scored {} in {}.".format(args[0], kwargs["subject"]))
 
-my_result(100, 'Arjun Adhikari', 'Bachelors', subject='Python')
+
+my_result(100, "Arjun Adhikari", "Bachelors", subject="Python")

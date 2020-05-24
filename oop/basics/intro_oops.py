@@ -5,7 +5,7 @@
 
 class Computer:
     def config(self):
-        print('i7 8th Gen', '16 GB', '1 TB')
+        print("i7 8th Gen", "16 GB", "1 TB")
 
 
 com1 = Computer()

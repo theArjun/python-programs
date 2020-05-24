@@ -13,10 +13,10 @@ print(type(f))
 
 # Decimal To Binary
 # The value inside the innermost bracket should be integer.
-print('In Binary :', bin(10))
+print("In Binary :", bin(10))
 
 # Decimal To Hexadecimal
-print('In Hexadecimal :', hex(255))
+print("In Hexadecimal :", hex(255))
 
 # Decimal To Octal
-print('In Octal :', oct(99))
+print("In Octal :", oct(99))

@@ -4,7 +4,8 @@ num = int(input("Enter a number : "))
 # Syntax >>  lambda someVariable : doThisOne if caseOne else doThisTwo
 
 
-def result(a): return "YES" if a % 2 == 0 else"NO"
+def result(a):
+    return "YES" if a % 2 == 0 else "NO"
 
 
 print(result(num))

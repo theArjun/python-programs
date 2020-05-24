@@ -20,7 +20,7 @@ for i in v:
 
 # This is how we print the particular element from a dictionary with
 # key-indexing.
-print("\n"+dict1[3])
+print("\n" + dict1[3])
 
 # This is how we delete the element of a dictionary with key-indexing.
 del dict1[2]

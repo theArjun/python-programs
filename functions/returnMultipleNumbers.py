@@ -1,8 +1,8 @@
 def calc(a, b):
-    w = a+b
-    x = a-b
-    y = a*b
-    z = a/b
+    w = a + b
+    x = a - b
+    y = a * b
+    z = a / b
     # We can return the variables separated by comma
     return w, x, y, z
 

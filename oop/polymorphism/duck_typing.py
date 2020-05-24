@@ -6,7 +6,6 @@
 
 
 class VSCode:
-
     def execute(self):
 
         print("Linting")
@@ -14,7 +13,6 @@ class VSCode:
 
 
 class Sublime:
-
     def execute(self):
 
         print("Spell Check")
@@ -24,10 +22,10 @@ class Sublime:
 
 
 class Editor:
-
     def code(self, editor):
 
         editor.execute()
+
 
 # In this case, both VSCode and Sublime has execute method, so it doesn't
 # matter if they are different, they can be passed to code () function

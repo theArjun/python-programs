@@ -44,5 +44,5 @@ my_file.seek(0)
 
 # Prints lines which starts from 'W'
 for line in my_file.readlines():
-    if(line.startswith("W")):
+    if line.startswith("W"):
         print(line)

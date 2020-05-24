@@ -7,8 +7,8 @@ Sample output: Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})"""
 # Python: how to convert a dictionary into a subscriptable array?
 # https://stackoverflow.com/questions/33674033/python-how-to-convert-a-dictionary-into-a-subscriptable-array
 
-d1 = {'a': 100, 'b': 200, 'c': 300}
-d2 = {'a': 300, 'b': 200, 'd': 400}
+d1 = {"a": 100, "b": 200, "c": 300}
+d2 = {"a": 300, "b": 200, "d": 400}
 
 # I think I misused dictionary comprehension here.
 # new_dict = {key: value_one + value_two for key, value_one in d1.items()

@@ -1,5 +1,5 @@
 num = int(input("Enter a number : "))
-r = range(2, num-1)
+r = range(2, num - 1)
 for x in r:
     if x % 2 == 0:
         primeFlag = False

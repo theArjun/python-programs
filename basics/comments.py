@@ -5,9 +5,9 @@ print("This line gets printed.")
 # print("This line doesn't get printed.")
 
 # This is multiple line commenting in Python
-'''print("This paragraph")
+"""print("This paragraph")
 print("of lines")
-print("also don't get printed.")'''
+print("also don't get printed.")"""
 
 # A gap of 4 spaces or a Tab is pressed in order to specify indentation.
 # Indentation plays a greater role in Python Scripts. They are not just

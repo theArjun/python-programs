@@ -10,7 +10,7 @@ class Course:
     def average(self):
         # To pass the parameter of member variables pass self.variable_name
         numberOfRatings = len(self.ratings)
-        average = sum(self.ratings)/numberOfRatings
+        average = sum(self.ratings) / numberOfRatings
         return average
 
 

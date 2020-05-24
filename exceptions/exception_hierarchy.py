@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://docs.python.org/2/library/exceptions.html'
+url = "https://docs.python.org/2/library/exceptions.html"
 response = requests.get(url)
 # print(response.text)
 
@@ -12,11 +12,11 @@ response = requests.get(url)
 # # Checks if any restrictions or not.
 # print(response.ok)
 
-soup = BeautifulSoup(response.content, 'html.parser')
+soup = BeautifulSoup(response.content, "html.parser")
 # print(soup.prettify())
 
-print('Exception Hierarchy in Python : ')
+print("Exception Hierarchy in Python : ")
 
-pre_items = soup.find_all('pre')
+pre_items = soup.find_all("pre")
 for pre_item in pre_items:
     print(pre_item.text)

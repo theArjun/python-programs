@@ -1,5 +1,4 @@
 class A:
-
     def __init__(self):
         print("Class A init")
 
@@ -8,7 +7,6 @@ class A:
 
 
 class B:
-
     def __init__(self):
         print("Class B init")
 

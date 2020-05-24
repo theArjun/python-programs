@@ -2,7 +2,6 @@ import random
 
 
 class Person:
-
     def __init__(self, first_name, last_name):
         self.first_name = first_name
         self.last_name = last_name
@@ -11,17 +10,12 @@ class Person:
     #  attributes.
     @property
     def full_name(self):
-        return '{} {}'.format(
-            self.first_name,
-            self.last_name
-        )
+        return "{} {}".format(self.first_name, self.last_name)
 
     @property
     def email(self):
-        return '{}.{}{}@email.com'.format(
-            self.first_name.lower(),
-            self.last_name.lower(),
-            random.randrange(11, 99)
+        return "{}.{}{}@email.com".format(
+            self.first_name.lower(), self.last_name.lower(), random.randrange(11, 99)
         )
 
     # Setting the attributes which are created using property decorator.
@@ -38,21 +32,22 @@ class Person:
         self.last_name = None
 
     def __str__(self):
-        return 'First Name : {} \nLast Name : {}'.format(
-            self.first_name, self.last_name)
+        return "First Name : {} \nLast Name : {}".format(
+            self.first_name, self.last_name
+        )
 
 
 if __name__ == "__main__":
 
-    p1 = Person('Arjun', 'Adhikari')
+    p1 = Person("Arjun", "Adhikari")
     print(p1.full_name)
     print(p1.email)
     # Deletion
-    del(p1.full_name)
+    del p1.full_name
     # Check what are the calues after deletion
     print(p1)
     # Setting another values using the full_name attribute
-    p1.full_name = 'Hari Sharma'
+    p1.full_name = "Hari Sharma"
     print(p1)
     print(p1.full_name)
     print(p1.email)

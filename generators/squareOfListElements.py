@@ -1,6 +1,6 @@
 def square_number(lst):
     for i in lst:
-        yield i**2
+        yield i ** 2
 
 
 lst = [1, 2, 3, 4, 5, 6]

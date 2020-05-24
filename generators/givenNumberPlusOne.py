@@ -2,7 +2,7 @@
 def my_generator(num):
     # Yield keyword makes this lfunction generator like return in normal
     # functions.
-    yield num+1
+    yield num + 1
 
 
 # Testing function

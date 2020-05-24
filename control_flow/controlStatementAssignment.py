@@ -2,7 +2,7 @@
 # of number and doesn't exceed 100.
 num = int(input("Enter a number : "))
 i = 0
-while(i <= num):
+while i <= num:
     i += 1
     if i % 10 == 0:
         continue

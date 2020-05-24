@@ -26,7 +26,7 @@ print("%s have %.1f bank balance." % (name, bank_balance))
 my_score = [1, 2, 3, 4, 5]
 print("%s loves the position %s." % (name, my_score))
 
-my_hobbies = ('cycling', 'swimming', 'designing')
+my_hobbies = ("cycling", "swimming", "designing")
 print("%s doing %s" % (name, my_hobbies))
 
 sample_num = 243

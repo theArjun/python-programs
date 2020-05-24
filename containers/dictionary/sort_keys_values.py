@@ -4,7 +4,7 @@
 import random
 import operator
 
-country_name = ['Nepal', 'India', 'Bangladesh', 'Pakistan', 'China']
+country_name = ["Nepal", "India", "Bangladesh", "Pakistan", "China"]
 my_dict = {name: random.randint(1, 100) for name in country_name}
 
 print(my_dict)

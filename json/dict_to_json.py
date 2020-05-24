@@ -1,9 +1,14 @@
 import json
 
 
-my_dictionary = {"id": 1, "first_name": "Wake", "last_name": "Frayne",
-                 "email": "wfrayne0@nih.gov", "gender": "Male",
-                 "phone_number": "323-989-5058"}
+my_dictionary = {
+    "id": 1,
+    "first_name": "Wake",
+    "last_name": "Frayne",
+    "email": "wfrayne0@nih.gov",
+    "gender": "Male",
+    "phone_number": "323-989-5058",
+}
 
 # dumps() method converts Python dictionary to json string.
 # indent indents json string according to passed numeric value.

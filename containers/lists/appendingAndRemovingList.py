@@ -10,7 +10,7 @@ lst.remove("Arjun")
 print(lst)
 
 # Deleting By Passing Index
-del(lst[1])
+del lst[1]
 print(lst)
 
 # Appending at middle of the list

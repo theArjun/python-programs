@@ -1,7 +1,7 @@
 def average(a, b):
     print(a)
     print(b)
-    print((a+b)/2)
+    print((a + b) / 2)
 
 
 # Doing this, a is assigned to 10 and b is assigned to 20 according to their

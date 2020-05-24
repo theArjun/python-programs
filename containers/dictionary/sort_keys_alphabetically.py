@@ -3,8 +3,7 @@
 # Module for sorting dictionary
 import operator
 
-sample_dict = {'a': 3, 's': 3, 'd': 3, 'j': 2, 'f': 2, 'n': 1, 'l': 1, 'i': 1,
-               'b': 1}
+sample_dict = {"a": 3, "s": 3, "d": 3, "j": 2, "f": 2, "n": 1, "l": 1, "i": 1, "b": 1}
 
 # It sorts the list, not the dictionary itself, so convert to list invoking
 # the items() function.

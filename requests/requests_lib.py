@@ -1,7 +1,7 @@
 import requests
 
 
-url = 'https://thearjun.tech'
+url = "https://thearjun.tech"
 res = requests.get(url)
 
 print(res.ok)
@@ -13,4 +13,4 @@ print(res.headers.items())
 
 # Formatting response headers
 for key, value in res.headers.items():
-    print(key, '    :    ', value)
+    print(key, "    :    ", value)

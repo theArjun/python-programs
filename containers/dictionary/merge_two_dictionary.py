@@ -1,7 +1,7 @@
 # Write a Python script to merge two Python dictionaries.
 
-country = {'nepal': 'asia', 'congo': 'africa', 'estonia': 'europe'}
-city = {'kathmandu': 'nepal', 'new delhi': 'india', 'beijing': 'china'}
+country = {"nepal": "asia", "congo": "africa", "estonia": "europe"}
+city = {"kathmandu": "nepal", "new delhi": "india", "beijing": "china"}
 
 print(country)
 

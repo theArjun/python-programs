@@ -9,6 +9,6 @@ except urllib.error.HTTPError:
     exit()
 
 # Write binary
-f = open('thearjun.html', 'wb')
+f = open("thearjun.html", "wb")
 f.write(content)
 f.close()
